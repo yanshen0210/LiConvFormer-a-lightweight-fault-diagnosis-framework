@@ -1,7 +1,10 @@
 # LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention
-* Core codes for the paper ["LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention"(under review)]
+* Core codes for the paper: "LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention"(under review)
 
-![Framework](https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework/blob/main/framework.jpg)
+<div align="center">
+<img src="https://github.com/yanshen0210/LiConvFormer-a-lightweight-fault-diagnosis-framework/blob/main/framework.jpg" width="600" />
+</div>
+
 ## Our operating environment
 * Python 3.8
 * pytorch  1.10.1
