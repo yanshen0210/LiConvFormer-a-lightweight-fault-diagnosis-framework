@@ -1,5 +1,6 @@
 # LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention
-* Core codes for the paper: "LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention" (pre-acceptance)
+* Core codes for the paper:
+<br> [LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention](https://www.sciencedirect.com/science/article/pii/S0957417423018407)
 * Created by Shen Yan, Haidong Shao, Jie Wang, Xinyu Zheng, Bin Liu.
 * Journal: Expert Systems With Applications
   
@@ -10,6 +11,7 @@
 ## Our operating environment
 * Python 3.8
 * pytorch  1.10.1
+* numpy  1.22.0 (If you get an error when saving data, try lowering your numpy version!)
 * and other necessary libs
 
 ## Guide 
@@ -42,6 +44,20 @@
 * `models` contians 8 methods including the proposed method
 * `utils` contians train&val&test processes
 
+## Citation
+If our work is useful to you, please cite the following paper, it is the greatest encouragement to our open source work, thank you very much!
+```
+@paper{
+  title = {LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention},
+  author = {Shen Yan, Haidong Shao, Jie Wang, Xinyu Zheng, Bin Liu},
+  journal = {Expert Systems With Applications},
+  volume = {In Press, Journal Pre-proof},
+  pages = {121338},
+  year = {2023},
+  doi = {doi.org/10.1016/j.eswa.2023.121338},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417423018407},
+}
+```
+
 ## Contact
 - yanshen0210@gmail.com
-* (We will further update relevent information if the paper is accepted for publication!)
