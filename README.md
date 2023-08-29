@@ -14,12 +14,21 @@
 * numpy  1.22.0 (If you get an error when saving data, try lowering your numpy version!)
 * and other necessary libs
 
+## Datasets
+* [Case1: XJTU gearbox](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
+* [Case2: XJTU spurgear](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
+* [Case3: OU bearing](https://drive.google.com/file/d/1PQnIBKzAu098SAl3DUw0n8AHONynpdb7/view?usp=sharing)
+* [Save dataset](https://drive.google.com/file/d/10XQDVN9YqbM7--X3dB55Io1eRLsLmruI/view?usp=sharing)
+
 ## Guide 
 * This repository provides a lightweight fault diagnosis framework. 
 * It includes the pre-processing for the data and the model proposed in the paper. 
 * We have also integrated 7 baseline methods including 4 CNN methods and 3 fault diagnosis methods based on CNN-Transformer for comparison.
 * `train_val_test.py` is the train&val&test process of all methods.
-* You need to load the data in following Datasets link at first, and put them in the `data` folder. Then run in `args_diagnosis.py`
+* You need to load the data in above Datasets link at first, and put them in the `data` folder. Then run in `args_diagnosis.py`
+<br> Pay attention to that if you want to run the data pre-process, you need to load [Case1](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing),
+[Case2](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing) and [Case3](https://drive.google.com/file/d/1PQnIBKzAu098SAl3DUw0n8AHONynpdb7/view?usp=sharing) in Datasets,
+<br> and set --save_dataset (in `args_diagnosis.py`) to True; or you can just load the [Save dataset](https://drive.google.com/file/d/10XQDVN9YqbM7--X3dB55Io1eRLsLmruI/view?usp=sharing), and set --save_dataset to False.
 * You can also choose the modules or adjust the parameters of the model to suit your needs.
 
 ## Initial learning rate
@@ -31,12 +40,6 @@
 * MobileNetV2: Case1--0.01;  Case2--0.001;  Case3--0.001
 * ResNet18: Case1--0.001;  Case2--0.001;  Case3--0.001
 * MSResNet: Case1--0.001;  Case2--0.001;  Case3--0.001
-
-## Datasets
-* [Case1: XJTU gearbox](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
-* [Case2: XJTU spurgear](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
-* [Case3: OU bearing](https://drive.google.com/file/d/1PQnIBKzAu098SAl3DUw0n8AHONynpdb7/view?usp=sharing)
-
 
 ## Pakages
 * `data` needs loading the Datasets in above links
