@@ -54,7 +54,7 @@ If our work is useful to you, please cite the following paper, it is the greates
   title = {LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention},
   author = {Shen Yan, Haidong Shao, Jie Wang, Xinyu Zheng, Bin Liu},
   journal = {Expert Systems With Applications},
-  volume = {In Press, Journal Pre-proof},
+  volume = {237, Part A},
   pages = {121338},
   year = {2023},
   doi = {doi.org/10.1016/j.eswa.2023.121338},
