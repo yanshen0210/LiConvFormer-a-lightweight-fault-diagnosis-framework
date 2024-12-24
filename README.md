@@ -61,6 +61,3 @@ If our work is useful to you, please cite the following paper, it is the greates
   url = {https://www.sciencedirect.com/science/article/pii/S0957417423018407},
 }
 ```
-
-## Contact
-- yanshen0210@gmail.com
